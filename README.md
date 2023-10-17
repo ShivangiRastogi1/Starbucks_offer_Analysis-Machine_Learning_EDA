@@ -17,7 +17,7 @@ Structure Of the Project:
 
 * Analysis: Data exploration and visualization
 * Clustering:
-  1. k-means clustering * On offer attributes only.
+  1. k-means clustering
 * Discussion and Conclusion
 
 After performing analysis below questions can be answered:
@@ -48,7 +48,7 @@ The evaluation of model will be using The sum of squares error
 
 The dataset utilized for this project was a simulation of the information that Starbucks gathered about its customers' past purchases over the course of one month. There were three sets of data in json format:
 
-* Portfolio: contains offer type (BOGO, discount, informational), difficulty (minimum required to spend to complete an offer), reward (reward given for completing an offer), duration (time for the offer to be open), and channels (email, web, mobile, social) for the offers.
+* Portfolio: contains offer type (BOGO, discount, informational), difficulty (minimum required to spend to complete an offer), reward (reward given for completing an offer), duration (time for the offer to be open), and channels (email, web, mobile, social) for the offers. [*portfolio.json*](https://github.com/ShivangiRastogi1/Starbucks_offer_Analysis-Machine_Learning_EDA/blob/main/portfolio.json) 
 
 * Profile: contains information of each individual customer including: age, the date when customers created an app account, gender, customer id, and income.
 
@@ -56,7 +56,7 @@ The dataset utilized for this project was a simulation of the information that S
 
 Here is the schema and explanation of each variable in the files:
 
-**portfolio.json**
+**portfolio.json** 
 * id (string) - offer id
 * offer_type (string) - type of offer ie BOGO, discount, informational
 * difficulty (int) - minimum required spend to complete an offer
